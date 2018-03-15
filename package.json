@@ -24,7 +24,7 @@
     "core-js": "^2.5.3",
     "ngx-admin-lte": "^2.0.0-beta.10",
     "rxjs": "^5.5.7",
-    "kaishi": "0.0.01",
+    "kaishi": "0.0.1",
     "zone.js": "^0.8.20"
   },
   "devDependencies": {
