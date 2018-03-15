@@ -1,10 +1,9 @@
-import { ModuleWithProviders } from '@angular/core';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { LayoutAuthComponent} from 'kaishi';
 
- 
+
 const routes: Routes = [
 // logged routes
 {
