@@ -1,24 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module'
+import { KaishiThemeAdminlteComponent } from 'kaishi';
 
-import { KaishiThemeAdminlteModule } from 'kaishi';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 
-
-
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    KaishiThemeAdminlteModule
-  ],
+  declarations: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule, KaishiThemeAdminlteComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
